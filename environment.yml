@@ -1,0 +1,25 @@
+name: nlp-py311
+channels:
+  - defaults
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.11
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - pathlib
+  - seaborn
+  - xlrd
+  - lime
+  - nltk
+  - gcsfs
+  - protobuf
+  - spacy
